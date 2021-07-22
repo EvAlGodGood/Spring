@@ -7,6 +7,16 @@
   <display-name>Archetype Created Web Application</display-name>
 
   <servlet>
+      <servlet-name>MyServletHW1</servlet-name>
+      <servlet-class>com.geekbrains.app.MyServletHW1</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+      <servlet-name>MyServletHW1</servlet-name>
+      <url-pattern>/HW1</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
     <servlet-name>FirstServlet</servlet-name>
     <servlet-class>com.geekbrains.app.FirstServlet</servlet-class>
   </servlet>
